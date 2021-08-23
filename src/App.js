@@ -7,6 +7,7 @@ import Categories from "./components/Categories/Categories"
 import Footer from "./components/Footer/Footer"
 import Personajes from './components/Personajes/Personajes';
 /* import Clase5 from "./components/Clase5/Clase5" */
+/* import Clase6 from "./components/Clase6/Clase6" */
 function App() {
   /*contenido de la clase 5*/
   /* let products= [
@@ -74,7 +75,11 @@ function App() {
       {/*contenido de la clase 5*/}
       {/* <Clase5 frutas={frutas}/> */}
       {/* <Clase5 productos={products}/> */}
+      {/* <Clase6 nombre={"frutilla"} precio={200}/>
+      <Clase6 nombre={"banana"} precio={100}/>
+      <Clase6 nombre={"kiwi"} precio={50}/> */}
     </div>
+    
   );
 }
 
