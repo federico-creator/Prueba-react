@@ -1,7 +1,9 @@
-import React from "react"
+import React, {Component} from "react"
 
-let Categories = () =>{
-    let categories = [1,2,3,4,5,6]
+let categories = [1,2,3,4,5,6]
+class Categories extends Component{
+   
+    render(){
     return(
         <div className="col-lg-6 mb-4">						
 							<div className="card shadow mb-4">
@@ -25,6 +27,7 @@ let Categories = () =>{
 							</div>
 		</div>
     )
+    }
 }
 
 

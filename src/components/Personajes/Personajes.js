@@ -10,7 +10,11 @@ let Personajes = () =>{
     return(
         <div className="conteiner">
 
-					<Personaje carac={info} />
+            {info.map((character,index) => { return(
+                <Personaje image={character.image} alt={character.alt} name={character.name}/>
+            )})}
+
+					
 
 		</div>
     )
